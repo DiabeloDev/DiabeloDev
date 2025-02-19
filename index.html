@@ -3,64 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona Główna</title>
+    <title>Moje Linki</title>
     <style>
+        /* Styl ogólny */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: #0d0d0d;
+            color: #ffffff;
             text-align: center;
-            margin: 50px;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
+
+        /* Kontener */
+        .container {
+            background: rgba(20, 20, 20, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 170, 0.5);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #00ffaa;
+            text-shadow: 0 0 10px #00ffaa;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #bbbbbb;
+        }
+
+        /* Lista linków */
         ul {
             list-style: none;
             padding: 0;
         }
+
         li {
-            margin: 10px 0;
+            margin: 15px 0;
         }
+
         a {
             text-decoration: none;
-            color: blue;
+            color: #00ffaa;
             font-size: 20px;
+            background: rgba(0, 255, 170, 0.1);
+            padding: 12px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0 10px rgba(0, 255, 170, 0.3);
+        }
+
+        a:hover {
+            background: #00ffaa;
+            color: #0d0d0d;
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(0, 255, 170, 0.8);
         }
     </style>
 </head>
 <body>
 
-    <h1>Witamy na Stronie Głównej</h1>
-    <p>Lista linków:</p>
+    <div class="container">
+        <h1>💻 Moje Linki</h1>
+        <p>Kliknij, aby odwiedzić:</p>
 
-    <ul id="linki">
-        <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
-        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-    </ul>
-
-    <input type="text" id="nowyLink" placeholder="Wpisz URL">
-    <input type="text" id="nazwaLinku" placeholder="Wpisz nazwę">
-    <button onclick="dodajLink()">Dodaj link</button>
-
-    <script>
-        function dodajLink() {
-            let url = document.getElementById("nowyLink").value;
-            let nazwa = document.getElementById("nazwaLinku").value;
-            if (url && nazwa) {
-                let lista = document.getElementById("linki");
-                let nowyElement = document.createElement("li");
-                let nowyLink = document.createElement("a");
-
-                nowyLink.href = url;
-                nowyLink.textContent = nazwa;
-                nowyLink.target = "_blank";
-
-                nowyElement.appendChild(nowyLink);
-                lista.appendChild(nowyElement);
-
-                document.getElementById("nowyLink").value = "";
-                document.getElementById("nazwaLinku").value = "";
-            } else {
-                alert("Wypełnij oba pola!");
-            }
-        }
-    </script>
+        <ul>
+            <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a herf="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        </ul>
+    </div>
 
 </body>
 </html>
