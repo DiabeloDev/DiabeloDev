@@ -1,40 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
+    <title>Strona Główna</title>
     <style>
-        /* Add CSS styles if needed */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
-    <div id="content"></div>
 
-    <!-- Adding links -->
-    <h2 className="mb-4">Try It Out</h2>
-    
-    <div class="container">
-        <div class="text-center">
-            <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">
-                <span>ChatGPT</span>
-            </a>
-            <br>
-            <p>Answer questions and share knowledge with millions of users.</p>
-        </div>
+    <h1>Witamy na Stronie Głównej</h1>
+    <p>Lista linków:</p>
 
-        <div class="container">
-            <h2 className="mb-4">GitHub Clone</h2>
-            
-            <div class="text-center">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    <span>GitHub Clone
-                </span>
-                <br>
-                <p>Share and collaborate on code projects.</p>
-            </div>
-        </div>
+    <ul id="linki">
+        <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+    </ul>
 
- </div>
+    <input type="text" id="nowyLink" placeholder="Wpisz URL">
+    <input type="text" id="nazwaLinku" placeholder="Wpisz nazwę">
+    <button onclick="dodajLink()">Dodaj link</button>
+
+    <script>
+        function dodajLink() {
+            let url = document.getElementById("nowyLink").value;
+            let nazwa = document.getElementById("nazwaLinku").value;
+            if (url && nazwa) {
+                let lista = document.getElementById("linki");
+                let nowyElement = document.createElement("li");
+                let nowyLink = document.createElement("a");
+
+                nowyLink.href = url;
+                nowyLink.textContent = nazwa;
+                nowyLink.target = "_blank";
+
+                nowyElement.appendChild(nowyLink);
+                lista.appendChild(nowyElement);
+
+                document.getElementById("nowyLink").value = "";
+                document.getElementById("nazwaLinku").value = "";
+            } else {
+                alert("Wypełnij oba pola!");
+            }
+        }
+    </script>
+
 </body>
 </html>
