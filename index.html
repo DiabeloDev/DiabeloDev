@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linki</title>
+    <title>Menu główne</title>
 
     <!-- Meta tagi dla prywatności -->
     <meta name="robots" content="noindex, nofollow">
@@ -85,6 +85,7 @@
 <body>
 
     <div class="container">
+        <h1>🔗 Linki</h1>
         <p>Kliknij, aby odwiedzić:</p>
 
         <ul>
@@ -93,6 +94,25 @@
             <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
         </ul>
     </div>
+
+    <script>
+        // Lista losowych tytułów
+        const titles = [
+            "Anonimowe",
+            "Nie patrz tu",
+            "404",
+            "🔒 Zaszyfrowane",
+            "Ciemna Sieć",
+            "🤖 System"
+        ];
+
+        // Funkcja zmieniająca tytuł co 3 sekundy
+        function changeTitle() {
+            document.title = titles[Math.floor(Math.random() * titles.length)];
+        }
+
+        setInterval(changeTitle, 3000);
+    </script>
 
 </body>
 </html>
