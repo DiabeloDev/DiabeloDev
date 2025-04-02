@@ -5,10 +5,10 @@ Jestem programistą, który specjalizuje się w **Pythonie** i **C#**. Tworzę a
 
 ## 🚀 Technologie, które znam  
 - **Python**: FastAPI, Flask  
-- **C#**: Tworzenie pluginów do Exiled (SCP:SL)  
+- **C#**: Tworzenie pluginów do Exiled (SCP:SL), Boty discord
 
 ## 🎮 Moje projekty  
-🔹 **Pluginy do SCP:SL** – Rozszerzenia do Exiled  
+🔹 **Pluginy do SCP:SL**
 🔹 **Backendy w FastAPI i Flask**  
 
 ## 🌍 Społeczność  
