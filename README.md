@@ -1,16 +1,18 @@
-## Hi there 👋
+# 👋 Witaj na moim profilu!  
 
-<!--
-**DiabeloDev/DiabeloDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🧑‍💻 O mnie  
+Jestem programistą, który specjalizuje się w **Pythonie** i **C#**. Tworzę aplikacje backendowe oraz pluginy do gier.  
 
-Here are some ideas to get you started:
+## 🚀 Technologie, które znam  
+- **Python**: FastAPI, Flask  
+- **C#**: Tworzenie pluginów do Exiled (SCP:SL)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎮 Moje projekty  
+🔹 **Pluginy do SCP:SL** – Rozszerzenia do Exiled  
+🔹 **Backendy w FastAPI i Flask**  
+
+## 🌍 Społeczność  
+Jestem deweloperem na serwerze Discord projektu Feniks!  
+🔗 [Dołącz do nas!](https://discord.gg/tk8Ec2HEBG)  
+
+📫 Kontakt? Po prostu napisz! 😃
