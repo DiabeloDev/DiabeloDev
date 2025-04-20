@@ -1,18 +1,22 @@
-# 👋 Witaj na moim profilu!  
+---
 
-## 🧑‍💻 O mnie  
-Jestem programistą, który specjalizuje się w **Pythonie** i **C#**. Tworzę aplikacje backendowe oraz pluginy do gier.  
+# 👋 Welcome to my profile!  
 
-## 🚀 Technologie, które znam  
+## 🧑‍💻 About Me  
+I'm a developer specializing in **Python** and **C#**. I create backend applications and game plugins.  
+
+## 🚀 Technologies I Use  
 - **Python**: FastAPI, Flask  
-- **C#**: Tworzenie pluginów do Exiled (SCP:SL), Boty discord
+- **C#**: Plugin development for Exiled (SCP:SL), Discord bots  
 
-## 🎮 Moje projekty  
-- **Pluginy do SCP:SL**
-- **Backendy w FastAPI i Flask**  
+## 🎮 My Projects  
+- **SCP:SL plugins**  
+- **Backends using FastAPI and Flask**  
 
-## 🌍 Społeczność  
-Jestem deweloperem na serwerze Discord projektu Feniks!  
-🔗 [Dołącz do nas!](https://discord.gg/tk8Ec2HEBG)  
+## 🌍 Community  
+I'm a developer on the Discord server for the **Feniks Project**!  
+🔗 [Join us!](https://discord.gg/tk8Ec2HEBG)  
 
-📫 Kontakt? Po prostu napisz! 😃
+📫 Want to reach out? Just drop me a message! 😄
+
+---
