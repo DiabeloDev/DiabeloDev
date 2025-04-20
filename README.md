@@ -8,8 +8,8 @@ Jestem programistą, który specjalizuje się w **Pythonie** i **C#**. Tworzę a
 - **C#**: Tworzenie pluginów do Exiled (SCP:SL), Boty discord
 
 ## 🎮 Moje projekty  
-🔹 **Pluginy do SCP:SL**
-🔹 **Backendy w FastAPI i Flask**  
+- **Pluginy do SCP:SL**
+- **Backendy w FastAPI i Flask**  
 
 ## 🌍 Społeczność  
 Jestem deweloperem na serwerze Discord projektu Feniks!  
