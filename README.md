@@ -19,4 +19,5 @@ I'm a developer specializing in **Python** and **C#**. I create backend applicat
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)<br>
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)<br>
 
-📫 Want to reach out? Just drop me a message! 😄
+
+📫 Want to reach out? Just drop me a message!
