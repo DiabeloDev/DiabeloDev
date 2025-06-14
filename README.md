@@ -1,7 +1,8 @@
 # 👋 Welcome to my profile!  
 
 ## 🧑‍💻 About Me  
-I'm a developer specializing in **Python** and **C#**. I create backend applications and game plugins.  
+I'm a developer specializing in **Python** and **C#**. I create backend applications and game plugins.
+> ⚠️ **I hate GitHub.** I'm only here because I have to be.  
 
 ## 🚀 Technologies I Use  
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)<br>
